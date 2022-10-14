@@ -1,0 +1,9 @@
+[submodule "systemc"]
+	path = systemc
+	url = https://github.com/accellera-official/systemc.git
+[submodule "libsystemctlm-soc"]
+	path = libsystemctlm-soc
+	url = https://github.com/Xilinx/libsystemctlm-soc.git
+[submodule "xilinx_qemu"]
+	path = xilinx_qemu
+	url = https://github.com/benoitdudu/xilinx_qemu.git
