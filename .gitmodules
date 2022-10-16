@@ -7,3 +7,6 @@
 [submodule "xilinx_qemu"]
 	path = xilinx_qemu
 	url = https://github.com/benoitdudu/xilinx_qemu.git
+[submodule "tbm"]
+	path = tbm
+	url = https://github.com/benoitdudu/tbm.git
