@@ -1,9 +1,10 @@
 
 #include "top.h"
 
-top::top(sc_core::sc_module_name name, std::string machine_path)
+top::top(sc_core::sc_module_name name, std::string &machine_path_str)
     : sc_core::sc_module(name)
-    , qemu("qemu", machine_path.c_str(), nullptr)
+    , machine_path(strdup(machine_path_str.c_str()))
+    , qemu("qemu", machine_path, nullptr)
 {
     qemu.isocket->bind(tSystemC.tsocket);
     qemu.rst.bind(reset);
