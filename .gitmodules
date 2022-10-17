@@ -10,3 +10,6 @@
 [submodule "tbm"]
 	path = tbm
 	url = https://github.com/benoitdudu/tbm.git
+[submodule "qemu_benoit"]
+	path = qemu_benoit
+	url = https://github.com/benoitdudu/qemu.git

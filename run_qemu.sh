@@ -3,7 +3,8 @@ set -e
 
 MACHINE_PATH=${PWD}/build/install/machine_path
 mkdir -p ${MACHINE_PATH}
-./build/install/qemu/bin/qemu-system-riscv64 \
+#./build/install/qemu/bin/qemu-system-riscv64 \
+./build/install/qemu_benoit/bin/qemu-system-riscv64 \
         -M virt-cosim \
         -m 256M \
         -serial stdio \
